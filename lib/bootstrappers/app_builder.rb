@@ -87,7 +87,7 @@ module Bootstrappers
 
 
     def remove_routes_comment_lines
-      replace_in_file 'config/routes.rb', /Application\.routes\.draw do.*end/m, "Application.routes.draw do\nend"
+      #replace_in_file 'config/routes.rb', /Application\.routes\.draw do.*end/m, "Application.routes.draw do\nend"
     end
 
     def use_mysql_config_template
