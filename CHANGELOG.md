@@ -1,3 +1,7 @@
+4.2.1.2
+
+* 去掉facebook
+
 4.2.1.1
 
 * use og:image

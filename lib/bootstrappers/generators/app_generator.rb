@@ -93,7 +93,7 @@ module Bootstrappers
     def configure_app
       say 'Configuring app'
       build :setup_devise
-      build :build_auto_facebook
+     # build :build_auto_facebook
       build :build_settings_from_config
       build :build_admin_method_to_user
     end
@@ -108,9 +108,9 @@ module Bootstrappers
       build :replace_email_sender_for_devise
     end
 
-    def build_auto_facebook
-      build :generate_auto_facebook
-    end
+   # def build_auto_facebook
+   #   build :generate_auto_facebook
+   # end
 
     def build_admin_method_to_user
       build :insert_admin_method_to_user

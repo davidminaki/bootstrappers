@@ -39,10 +39,10 @@ module Bootstrappers
       generate 'devise User'
     end
 
-    def generate_auto_facebook
-      generate 'auto_facebook:user'
-      generate 'auto_facebook:install'
-    end
+   # def generate_auto_facebook
+   #  generate 'auto_facebook:user'
+   #   generate 'auto_facebook:install'
+   # end
 
     def insert_admin_method_to_user
       inject_into_file 'app/models/user.rb',

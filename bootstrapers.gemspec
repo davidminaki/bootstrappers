@@ -6,8 +6,8 @@ require 'bootstrappers/version'
 Gem::Specification.new do |gem|
   gem.name          = "bootstrappers"
   gem.version       = Bootstrappers::VERSION
-  gem.authors       = ["xdite"]
-  gem.email         = ["xdite@rocodev.com"]
+  gem.authors       = ["david"]
+  gem.email         = ["davidminaki@163.com"]
   gem.description   = %q{ Bootstrappers is the base Rails application using Bootstrap template and other goodies. }
   gem.summary       = %q{ Bootstrappers is the base Rails application using Bootstrap template and other goodies. }
   gem.homepage      = ""
